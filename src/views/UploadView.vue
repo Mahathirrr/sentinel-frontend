@@ -54,12 +54,12 @@ const modelOptions: { value: ModerationModel; title: string; description: string
   {
     value: 'convnext',
     title: 'ConvNeXt-Large',
-    description: 'Deteksi visual — banner, layout, dan elemen promosi judi dari gambar.',
+    description: 'Deteksi visual: banner, layout, dan elemen promosi judi dari gambar.',
   },
   {
     value: 'xlmr',
     title: 'XLM-RoBERTa',
-    description: 'Analisis teks — OCR mengekstrak teks dari gambar, lalu diklasifikasi langsung.',
+    description: 'Analisis teks: OCR mengekstrak teks dari gambar, lalu diklasifikasi langsung.',
   },
 ]
 

@@ -32,7 +32,7 @@ const stats = [
           to get every project across the finish line.
           <br />
           <br />
-          We're customer-obsessed — investing the time to understand every
+          We're customer-obsessed, investing the time to understand every
           aspect of your workflow so that we can help you operate better than
           ever before. We're all in this together because your success is our
           success. In our history as a company, we've never lost a customer,

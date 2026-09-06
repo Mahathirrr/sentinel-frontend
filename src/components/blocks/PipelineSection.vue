@@ -19,7 +19,7 @@ const stages = [
   {
     step: '03',
     title: 'Analisis dengan model terpilih',
-    why: 'Satu model dijalankan per request — tidak ada pipeline gabungan visual + teks sekaligus.',
+    why: 'Satu model dijalankan per request. Tidak ada pipeline gabungan visual dan teks sekaligus.',
     action: 'ConvNeXt menilai elemen visual. XLM-RoBERTa mengekstrak teks via OCR lalu mengklasifikasi langsung.',
     icon: Cpu,
   },
