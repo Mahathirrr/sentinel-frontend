@@ -1,0 +1,21 @@
+<script setup lang="ts">
+import { NavigationMenuViewport, type NavigationMenuViewportProps } from 'reka-ui'
+
+import { cn } from '@/lib/utils'
+
+type Props = NavigationMenuViewportProps & { class?: string }
+
+const props = defineProps<Props>()
+</script>
+
+<template>
+  <div class="absolute top-full left-0 flex justify-center">
+    <NavigationMenuViewport
+      v-bind="props"
+      :class="cn(
+        'origin-top-center bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 relative mt-1.5 h-[var(--reka-navigation-menu-viewport-height)] w-full overflow-hidden rounded-md border shadow-sm md:w-[var(--reka-navigation-menu-viewport-width)]',
+        props.class,
+      )"
+    />
+  </div>
+</template>
