@@ -1,0 +1,19 @@
+<svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="logo-face" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5B4FC"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#3730A3"/>
+    </linearGradient>
+    <linearGradient id="logo-rim" x1="10" y1="4" x2="22" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0E7FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="16" cy="29" rx="9" ry="1.5" fill="#312E81" opacity="0.18"/>
+  <path d="M16 3L6 8V16C6 22.6 10.5 27.8 16 30C21.5 27.8 26 22.6 26 16V8L16 3Z" fill="#312E81" transform="translate(0 1.5)" opacity="0.45"/>
+  <path d="M16 2L6 7V15C6 21.6 10.5 26.8 16 29C21.5 26.8 26 21.6 26 15V7L16 2Z" fill="url(#logo-face)"/>
+  <path d="M16 5L10 8.2V14C10 17.8 12.6 21 16 22.5C19.4 21 22 17.8 22 14V8.2L16 5Z" fill="url(#logo-rim)" opacity="0.5"/>
+  <path d="M12.5 15L14.8 17.3L19.5 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="34" y="21" fill="currentColor" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.02em">Sentinel</text>
+</svg>
